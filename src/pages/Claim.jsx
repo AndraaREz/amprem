@@ -181,7 +181,7 @@ export default function Claim() {
         <section className="account-section">
           <div className={`account-card ${loading ? 'switching' : ''}`}>
             <div className="card-top">
-              <span className="card-label">ZHINNX ACTIVATION</span>
+              <span className="card-label">ANDRAA ACTIVATION</span>
               <div style={{display: 'flex', gap: 8, alignItems: 'center'}}>
                 <div className="step-indicator">
                   <div className={`step-dot ${step > 1 ? 'done' : step === 1 ? 'active' : ''}`}>{step > 1 ? '✓' : '1'}</div>
@@ -336,12 +336,12 @@ export default function Claim() {
             <div className="footer-brand">
               <span className="footer-brand-mark">永</span>
               <div>
-                <p className="footer-brand-name">Zhinnx AMPrem</p>
+                <p className="footer-brand-name">Andraa AMPrem</p>
                 <p className="footer-brand-description">Alight Motion Premium 1Y • Proxy aman • Anti debug</p>
               </div>
             </div>
             <div className="footer-links">
-              <a className="footer-link" href="https://github.com/zhinnx/zhinnx-amprem" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <a className="footer-link" href="https://github.com/Andraa/Andraa-amprem" target="_blank" rel="noreferrer" aria-label="GitHub">
                 <svg viewBox="0 0 24 24" style={{width: 18, height: 18, fill: 'currentColor'}}><path d="M12 2C6.477 2 2 6.477 2 12c0 4.419 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.866-.014-1.7-2.782.604-3.369-1.341-3.369-1.341-.455-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.071 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.091-.646.349-1.087.635-1.337-2.221-.253-4.555-1.111-4.555-4.943 0-1.092.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0 1 12 6.833a9.57 9.57 0 0 1 2.504.337c1.909-1.294 2.748-1.025 2.748-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.591 1.028 2.683 0 3.842-2.337 4.687-4.565 4.935.359.309.679.92.679 1.855 0 1.338-.012 2.419-.012 2.748 0 .267.18.578.688.48C19.138 20.162 22 16.417 22 12c0-5.523-4.477-10-10-10Z"/></svg>
               </a>
               <a className="footer-link" href="mailto:zhindev@gmail.com" aria-label="Email">
@@ -350,8 +350,8 @@ export default function Claim() {
             </div>
           </div>
           <div className="footer-bottom">
-            <span>© {new Date().getFullYear()} Zhinnx AMPrem — Proxy anti bocor + Anti debug</span>
-            <span>Crafted by <a href="https://github.com/zhinnx">zhinnx</a> • Style ref CN ID China Gen</span>
+            <span>© {new Date().getFullYear()} Andraa AMPrem — Proxy anti bocor + Anti debug</span>
+            <span>Crafted by <a href="https://github.com/Andraa">Andraa</a> • Style ref CN ID China Gen</span>
           </div>
         </footer>
       </main>

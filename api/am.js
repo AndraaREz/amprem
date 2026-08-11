@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   // Anti-cors for direct abuse, only allow same origin or vercel
-  const allowedOrigins = ['https://zhinnx-amprem.vercel.app', 'https://zhinnx-amprem-*.vercel.app'];
+  const allowedOrigins = ['https://andraax-amprem.vercel.app', 'https://andraax-amprem-*.vercel.app'];
   // Simple CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -51,7 +51,7 @@ export default async function handler(req, res) {
     const upstream = await fetch(targetUrl, {
       method: 'GET',
       headers: {
-        'User-Agent': 'ZhinnxAMPrem/1.0',
+        'User-Agent': 'AndraaxAMPrem/1.0',
       },
     });
 
